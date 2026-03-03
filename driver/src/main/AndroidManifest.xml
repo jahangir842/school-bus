@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <application>
+        <activity 
+            android:name=".DriverDashboardActivity"
+            android:exported="false" />
+        <activity 
+            android:name=".TripActivity"
+            android:exported="false" />
+        <activity 
+            android:name=".AttendanceActivity"
+            android:exported="false" />
+            
+        <service 
+            android:name=".LocationTrackingService"
+            android:foregroundServiceType="location"
+            android:exported="false" />
+    </application>
+    
+</manifest>
